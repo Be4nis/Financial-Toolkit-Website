@@ -1,34 +1,6 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    border-radius: 10px;
-}
 h1 {
     text-align: center;
 }
-li {
-    float: left;
-    width: 33%;
-    background-color:#83cfcf;
-    border-radius: 100px;
-}
-
-li a {
-    display: block;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    border-radius: 100px;
-    text-decoration: none;
-}  
-li a:hover {
-    background-color: #797979;
-} 
 .active {
     background-color: #4CAF50;
 }
@@ -52,6 +24,32 @@ li a:hover {
 }
 
 .expense { 
+    list-style-type:none ;
+    background-color: #ffffff55;
+
+}
+
+.exp {
+    float:none;
+    width:90%;
+    margin:2vw;
+    padding:1vw;
+    text-align: center;
+    color:#202020;
+    border-radius: 0px;
+}
+
+iframe {
+    width:90%;
+    height:40vw;
+    margin-bottom: 0%;
+    border: 10px solid black;
     display:block;
-    background-color: none;
+    margin:auto
+}   
+
+#pid {
+    margin: 1px;
+    padding: 0%;
+    text-align: center;
 }

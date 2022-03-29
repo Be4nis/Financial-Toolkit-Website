@@ -11,7 +11,7 @@
 }
 .header::after{
     font-size: 0.8vw;
-    content: "I'm going to take this off the internet when this assignment is marked since I don't want random people coming on the website";
+    content: "Click the title to go to the sources page.";
     padding-bottom: 100px;
     color:#dae2e9;
 }
@@ -83,6 +83,10 @@ img:hover {
     padding: 15px;
     text-align: center;
 }
+
+
+
+
 
 
 .custom-shape-divider-top-1647484682 {

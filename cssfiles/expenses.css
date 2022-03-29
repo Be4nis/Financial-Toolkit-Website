@@ -1,6 +1,7 @@
 h1 {
     text-align: center;
 }
+
 .active {
     background-color: #4CAF50;
 }
@@ -26,7 +27,7 @@ h1 {
 .expense { 
     list-style-type:none ;
     background-color: #ffffff55;
-
+    margin-bottom: 0%;
 }
 
 .exp {
@@ -41,7 +42,8 @@ h1 {
 
 iframe {
     width:90%;
-    height:40vw;
+    height:30vw;
+    padding-bottom: 0%;
     margin-bottom: 0%;
     border: 10px solid black;
     display:block;
